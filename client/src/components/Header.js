@@ -10,7 +10,7 @@ const Header = ({ setCurrentPage }) => {
 
   return (
     <div id='headerDiv'>
-      Header
+   
       <button className='navBtn' onClick={() => handlePageChange('contact')}>Contact</button>
 
       <button className='navBtn' onClick={() => handlePageChange('home')}>Home</button>

@@ -1,27 +1,65 @@
+:root {
+    --prussian-blue: #222D3Fff;
+    --rose-quartz: #C0A8B5ff;
+    --white: #FCFCFCff;
+    --davys-gray: #4B4D50ff;
+  }
+  
+  
+  .homeDiv {
+    height: 80vh;
+    position: relative;
+    display: flex;
 
-.homeDiv{
-    .portrait {
+    &::before {
+        content: "Artist";
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        position: absolute;
+        top: 44%;
+        left: 22%;
+        color: var(--rose-quartz);
+        -webkit-text-stroke: 1px var(--white);
+        text-stroke: 1px var(--white);
+      
+      }
+    
+      &::after {
+        content: "developer";
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        position: absolute;
+        bottom: 44%;
+        right: 22%;
+        color: var(--prussian-blue);
+        -webkit-text-stroke: 1px var(--white);
+        text-stroke: 1px var(--white);
+       
+      }
+
+  }
+  
+  .homeDiv .portrait {
+    position: absolute;
+    inset: 0;
+    margin: auto;
     width: 20%;
     margin-top: 4rem;
     margin-bottom: 4rem;
-
-}
-
-&::before {
-    content: "Artist";
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-    position: absolute;
-    top: 44%;
-    left: 22%;
-}
-
-&::after {
-    content: "developer";
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-    position: absolute;
-    bottom: 44%;
-    right: 22%;
-}
-}
+    border-radius: 50% / 2% 50%;
+  }
+  
+  .red-section {
+    flex: 1;
+    height: 100%;
+    background-color: var(--rose-quartz);
+    transition: background-color 0.3s ease;
+  }
+  
+  .blue-section {
+    flex: 1;
+    height: 100%;
+    background-color: var(--prussian-blue);
+    transition: background-color 0.3s ease;
+  }
+  
