@@ -1,0 +1,27 @@
+
+.homeDiv{
+    .portrait {
+    width: 20%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+
+&::before {
+    content: "Artist";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 44%;
+    left: 22%;
+}
+
+&::after {
+    content: "developer";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    bottom: 44%;
+    right: 22%;
+}
+}

@@ -1,3 +1,11 @@
+:root {
+  --prussian-blue: #222D3Fff;
+  --rose-quartz: #C0A8B5ff;
+  --white: #FCFCFCff;
+  --davys-gray: #4B4D50ff;
+}
+
+
 .App {
   text-align: center;
 }
@@ -32,6 +40,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

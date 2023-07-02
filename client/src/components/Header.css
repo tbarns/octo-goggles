@@ -1,0 +1,13 @@
+#headerDiv {
+
+    width: 100%;
+    height: 3rem;
+    background-color: var(--rose-quartz);
+    color: var(--davys-gray);
+}
+
+.navBtn {
+    display: inline;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
