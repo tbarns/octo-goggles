@@ -14,7 +14,7 @@
     &::before {
         content: "Artist";
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 40px;
+        font-size: 60px;
         position: absolute;
         top: 44%;
         left: 22%;
@@ -27,7 +27,7 @@
       &::after {
         content: "developer";
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 40px;
+        font-size: 60px;
         position: absolute;
         bottom: 44%;
         right: 22%;
@@ -38,7 +38,47 @@
       }
 
   }
+
+  #devTextTitle{
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    right: 22%;
+    color: var(--white);
+  }
   
+  #devText{
+ color: var(--white);
+    font-size: 30px;
+   position: absolute;
+   right: 5%;
+   top:60%;
+   width: 40%;
+   text-align: right;
+  }
+
+  #artistTextTitle{
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    color: var(--white);
+  }
+
+  #artistText{
+    color: var(--white);
+    font-size: 30px;
+   position: absolute;
+   left: 5%;
+   top:60%;
+   width: 40%;
+   text-align: left;
+  }
+
+  #artistBlank{
+    color: transparent;
+  }
+
   .homeDiv .portrait {
     position: absolute;
     inset: 0;
