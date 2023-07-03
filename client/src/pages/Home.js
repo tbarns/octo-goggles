@@ -45,8 +45,9 @@ const Home = () => {
     return (
         <div className="homeDiv" onMouseMove={handleMouseMove}>
             <img src={portrait} className="portrait" alt="a portrait of a person with brown hair, glasses and a beard and mustache. the right half of the face is a photograph and the left is a realistic pencil drawing with a pink background." />
-            <p id='artistTextTitle'> Interdisciplinary</p>  <p id='artistText' >creating fine works of art using traditional media as well as digital. Gallery exhibits in New York City and Seattle. Contributing columnist to the bilingual publication Beefcake Mag based in Brazil.  Clients include Amazon, Microsoft, Nike, Glass Iris Productions, Mighty Tripod, Seattle Institute of Art, and more.</p>
-
+            <p id='artistTextTitle'> Interdisciplinary</p>
+            <div id='artDiv' >  <p id='artistText' >creating fine works of art using traditional media as well as digital. Gallery exhibits in New York City and Seattle. Contributing columnist to the bilingual publication Beefcake Mag based in Brazil.  Clients include Amazon, Microsoft, Nike, Glass Iris Productions, Mighty Tripod, Seattle Institute of Art, and more.</p>
+            </div>
 
             <p id='devTextTitle'> Full Stack</p>  <p id='devText' >with extensive experience integrating third-party REST APIs into MVC projects and OOP projects with Node.js and GraphQL.  Other backend skills include:
 

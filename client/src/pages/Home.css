@@ -25,7 +25,7 @@
     }
 
     &::after {
-        content: "developer";
+        content: "Developer";
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: calc(1vw + 2.5rem);
         position: absolute;
@@ -61,7 +61,7 @@
     font-size: calc(1vw + 1.5rem);
     position: absolute;
     top: 30%;
-    left: 22%;
+    left: 12%;
     color: var(--white);
 }
 
@@ -75,9 +75,7 @@
     text-align: left;
 }
 
-#artistBlank {
-    color: transparent;
-}
+
 
 .homeDiv .portrait {
     position: absolute;
@@ -102,3 +100,59 @@
     background-color: var(--prussian-blue);
     transition: background-color 0.3s ease;
 }
+
+@media (max-width: 1050px) {
+    .homeDiv::before{
+        left: 15%;
+    }
+
+    .homeDiv::after {
+     
+
+      right: 17%;
+    }
+    #artistTextTitle,
+    #devTextTitle {
+        padding-top: 1rem;
+        padding-left: 1.2rem;
+    }
+    #devTextTitle{
+        right:10%;
+    }
+
+    #artistText{
+        font-size: 1.11rem;
+        line-height: 1.4;
+    }
+
+    #devText {
+        width:40%;
+        font-size: .95rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #artDiv{
+        height: fit-content;
+    }
+  
+    .homeDiv::before{
+        left: 15%;
+    }
+
+    .homeDiv::after {
+     
+font-size: 40px;
+      right: 1%;
+    }
+  
+
+    #artistText{
+      height: fit-content;
+    }
+
+    #devText {
+        height: fit-content;
+    }
+  }
