@@ -49,12 +49,12 @@
   
   #devText{
  color: var(--white);
-    font-size: 30px;
+    font-size: 20px;
    position: absolute;
-   right: 5%;
+   right: 0%;
    top:60%;
    width: 40%;
-   text-align: right;
+   text-align: left;
   }
 
   #artistTextTitle{
@@ -67,7 +67,7 @@
 
   #artistText{
     color: var(--white);
-    font-size: 30px;
+    font-size: 20px;
    position: absolute;
    left: 5%;
    top:60%;
