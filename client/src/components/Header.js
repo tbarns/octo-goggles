@@ -14,6 +14,7 @@ const Header = ({ setCurrentPage }) => {
       <button className='navBtn' onClick={() => handlePageChange('contact')}>Contact</button>
 
       <button className='navBtn' onClick={() => handlePageChange('home')}>Home</button>
+      <button className='navBtn' onClick={() => handlePageChange('projects')}>Projects</button>
     </div>
   )
 }

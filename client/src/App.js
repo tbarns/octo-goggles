@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Projects from './pages/Projects';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -17,6 +18,8 @@ function App() {
       return <Home />;
     } else if (currentPage === 'contact') {
       return <Contact/>;
+    } else if (currentPage === 'projects') {
+      return <Projects/>;
     }
     // Add more conditions for other pages you create
   };
