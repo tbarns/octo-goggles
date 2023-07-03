@@ -7,7 +7,7 @@ import DL from "../components/projects/DL"
 
 const Projects = () => {
   return (
-    <div>
+    <div id = 'projectsContainer'>
 
 <ArtCart/>
 <DL/>
