@@ -3,7 +3,14 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div id='contactDiv' >Contact</div>
+    <div id='contactDiv' >
+        
+        <a href="mailto:tbarnaby1@gmail.com" className="EmailButton">
+  Contact Me
+</a>
+
+
+    </div>
   )
 }
 
