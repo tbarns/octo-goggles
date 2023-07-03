@@ -1,0 +1,21 @@
+.projectDiv{
+background-color: var(--prussian-blue);
+width: 30%;
+margin: 1rem;
+height: auto;
+display: flex;
+color: var(--white);
+}
+
+.AppDesc{
+background-color: blueviolet;
+}
+
+.myPart{
+    background-color: aqua;
+
+}
+
+.techUsed{
+background-color: bisque;
+}
