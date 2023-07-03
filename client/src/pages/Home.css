@@ -42,8 +42,8 @@
   #devTextTitle{
     font-size: 40px;
     position: absolute;
-    top: 30%;
-    right: 22%;
+    top: 33%;
+    right: 26%;
     color: var(--white);
   }
   
@@ -51,9 +51,9 @@
  color: var(--white);
     font-size: 20px;
    position: absolute;
-   right: 0%;
-   top:60%;
-   width: 40%;
+   right: 5%;
+   top:52%;
+   width: 33%;
    text-align: left;
   }
 
@@ -71,7 +71,7 @@
    position: absolute;
    left: 5%;
    top:60%;
-   width: 40%;
+   width: 33%;
    text-align: left;
   }
 
