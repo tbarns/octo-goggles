@@ -3,10 +3,10 @@
     --rose-quartz: #C0A8B5ff;
     --white: #FCFCFCff;
     --davys-gray: #4B4D50ff;
-  }
-  
-  
-  .homeDiv {
+}
+
+
+.homeDiv {
     height: 80vh;
     position: relative;
     display: flex;
@@ -14,72 +14,72 @@
     &::before {
         content: "Artist";
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 60px;
+        font-size: calc(1vw + 2.5rem);
         position: absolute;
         top: 44%;
         left: 22%;
         color: var(--rose-quartz);
         -webkit-text-stroke: 1px var(--white);
         text-stroke: 1px var(--white);
-      
-      }
-    
-      &::after {
+
+    }
+
+    &::after {
         content: "developer";
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 60px;
+        font-size: calc(1vw + 2.5rem);
         position: absolute;
-        bottom: 44%;
+        top: 44%;
         right: 22%;
         color: var(--prussian-blue);
         -webkit-text-stroke: 1px var(--white);
         text-stroke: 1px var(--white);
-       
-      }
 
-  }
+    }
 
-  #devTextTitle{
-    font-size: 40px;
+}
+
+#devTextTitle {
+    font-size: calc(1vw + 1.5rem);
     position: absolute;
-    top: 33%;
+    top: 30%;
     right: 26%;
     color: var(--white);
-  }
-  
-  #devText{
- color: var(--white);
-    font-size: 20px;
-   position: absolute;
-   right: 5%;
-   top:52%;
-   width: 33%;
-   text-align: left;
-  }
+}
 
-  #artistTextTitle{
-    font-size: 40px;
+#devText {
+    color: var(--white);
+    font-size: calc(1vw + .095rem);
+    position: absolute;
+    right: 5%;
+    top: 52%;
+    width: 33%;
+    text-align: left;
+}
+
+#artistTextTitle {
+    font-size: calc(1vw + 1.5rem);
     position: absolute;
     top: 30%;
     left: 22%;
     color: var(--white);
-  }
+}
 
-  #artistText{
+#artistText {
     color: var(--white);
-    font-size: 20px;
-   position: absolute;
-   left: 5%;
-   top:60%;
-   width: 33%;
-   text-align: left;
-  }
+    font-size: calc(1.5vw + .095rem);
+    position: absolute;
+    left: 5%;
+    top: 55%;
+    width: 33%;
+    text-align: left;
+}
 
-  #artistBlank{
+#artistBlank {
     color: transparent;
-  }
+}
 
-  .homeDiv .portrait {
+.homeDiv .portrait {
     position: absolute;
     inset: 0;
     margin: auto;
@@ -87,19 +87,18 @@
     margin-top: 4rem;
     margin-bottom: 4rem;
     border-radius: 50% / 9% 50%;
-  }
-  
-  .red-section {
+}
+
+.red-section {
     flex: 1;
     height: 100%;
     background-color: var(--rose-quartz);
     transition: background-color 0.3s ease;
-  }
-  
-  .blue-section {
+}
+
+.blue-section {
     flex: 1;
     height: 100%;
     background-color: var(--prussian-blue);
     transition: background-color 0.3s ease;
-  }
-  
+}
