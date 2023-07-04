@@ -11,10 +11,11 @@ const Brew = () => {
       <p className='techUsed'>
         Notable technologies used: JavaScript, Google Maps API, Open Brewery API, GitHub
       </p>
+      <div>
       <a href="https://tbarns.github.io/Brewery-Locator/" className="ExternalLink">
-        Visit Website
+        <p className="ExternalLinkP"  >Visit Website</p>
       </a>
-
+      </div>
     </div>
   )
 }

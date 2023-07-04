@@ -14,10 +14,11 @@ const ArtCart = () => {
       <p className='techUsed'>
         Notable technologies used: Handlebars, REST APIs, MongoDB, Node.js, Express.js, GitHub
       </p>
-      <a href="https://art-cart-gui-guys-production.herokuapp.com/login" className="ExternalLink">
-        Visit Website
-      </a>
-
+      <div>
+        <a href="https://art-cart-gui-guys-production.herokuapp.com/login" className="ExternalLink">
+          <p className="ExternalLinkP"  >Visit Website</p>
+        </a>
+      </div>
     </div>
   )
 }

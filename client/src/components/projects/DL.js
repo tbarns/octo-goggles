@@ -14,9 +14,11 @@ const DL = () => {
       <p className='techUsed'>
         Notable technologies used: JWT, REACT, GraphQL, MongoDB, Node.js, Express.js, GitHub
       </p>
+      <div>
       <a href="https://didactic-lift.herokuapp.com/" className="ExternalLink">
-        Visit Website
+        <p className="ExternalLinkP"  >Visit Website</p>
       </a>
+      </div>
 
     </div>
   )
