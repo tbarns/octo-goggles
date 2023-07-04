@@ -99,9 +99,10 @@
 }
 
 @media (max-width: 1180px) {
-    .homeDiv .portrait{
+    .homeDiv .portrait {
         width: 23%;
-       }
+    }
+
     .homeDiv::before {
         left: 15%;
     }
@@ -132,40 +133,53 @@
 }
 
 @media (max-width: 768px) {
-   .homeDiv .portrait{
-     width: 50%;
+    .homeDiv .portrait {
+        width: 30%;
     }
+
     #artDiv {
         height: fit-content;
     }
-    #artistTextTitle{
-        left:-1%;
+
+    #devTextTitle {
+        top: 2%;
+
+        font-size: 20px;
+    }
+
+    #artistTextTitle {
+        left: 0%;
+        top: 0%;
+        font-size: 20px;
     }
 
     .homeDiv::before {
         left: 3.5%;
         font-size: calc(1vw + 2rem);
-        top: 44%;
+        top: 14%;
     }
 
     .homeDiv::after {
-        right: 3%;
-        font-size: calc(2vw + 2rem);
-        top: 44%;
+        right: 2%;
+        font-size: calc(2vw + 1.5rem);
+        top: 14%;
     }
 
     #artistText {
+        top: 25%;
+        left: 2%;
         height: fit-content;
-        font-size: calc(1.2vw + 0.095rem);
+        font-size: calc(1.2vw + 0.495rem);
     }
 
     #devText {
         height: fit-content;
-        font-size: calc(1.2vw + 0.495rem);
-        width: 45%;
-        right: 0%;
+        font-size: calc(1.2vw + 0.325rem);
+        width: 47%;
+        right: 1%;
+        top: 45%;
+        
     }
-    #artistText{
-        font-size: calc(1.2vw + 0.695rem);
-    }
+
+  
 }
