@@ -5,7 +5,6 @@
     --davys-gray: #4B4D50ff;
 }
 
-
 .homeDiv {
     height: 80vh;
     position: relative;
@@ -21,7 +20,7 @@
         color: var(--rose-quartz);
         -webkit-text-stroke: 1px var(--white);
         text-stroke: 1px var(--white);
-
+        transition: font-size 0.3s ease, top 0.3s ease, left 0.3s ease;
     }
 
     &::after {
@@ -34,7 +33,7 @@
         color: var(--prussian-blue);
         -webkit-text-stroke: 1px var(--white);
         text-stroke: 1px var(--white);
-
+        transition: font-size 0.3s ease, top 0.3s ease, right 0.3s ease;
     }
 
 }
@@ -52,7 +51,7 @@
     font-size: calc(1vw + .095rem);
     position: absolute;
     right: 5%;
-    top: 52%;
+    top: 55%;
     width: 33%;
     text-align: left;
 }
@@ -74,8 +73,6 @@
     width: 33%;
     text-align: left;
 }
-
-
 
 .homeDiv .portrait {
     position: absolute;
@@ -102,57 +99,67 @@
 }
 
 @media (max-width: 1050px) {
-    .homeDiv::before{
+    .homeDiv::before {
         left: 15%;
     }
 
     .homeDiv::after {
-     
-
-      right: 17%;
+        right: 5%;
     }
+
     #artistTextTitle,
     #devTextTitle {
         padding-top: 1rem;
         padding-left: 1.2rem;
     }
-    #devTextTitle{
-        right:10%;
+
+    #devTextTitle {
+        right: 12.5%;
     }
 
-    #artistText{
+    #artistText {
         font-size: 1.11rem;
         line-height: 1.4;
     }
 
     #devText {
-        width:40%;
-        font-size: .95rem;
+        width: 40%;
+        font-size: 0.95rem;
     }
 }
 
 @media (max-width: 768px) {
-
-    #artDiv{
+    #artDiv {
         height: fit-content;
     }
-  
-    .homeDiv::before{
-        left: 15%;
+    #artistTextTitle{
+        left:-1%;
+    }
+
+    .homeDiv::before {
+        left: 3.5%;
+        font-size: calc(1vw + 2rem);
+        top: 44%;
     }
 
     .homeDiv::after {
-     
-font-size: 40px;
-      right: 1%;
+        right: 3%;
+        font-size: calc(2vw + 2rem);
+        top: 44%;
     }
-  
 
-    #artistText{
-      height: fit-content;
+    #artistText {
+        height: fit-content;
+        font-size: calc(1.2vw + 0.095rem);
     }
 
     #devText {
         height: fit-content;
+        font-size: calc(1.2vw + 0.495rem);
+        width: 45%;
+        right: 0%;
     }
-  }
+    #artistText{
+        font-size: calc(1.2vw + 0.695rem);
+    }
+}
