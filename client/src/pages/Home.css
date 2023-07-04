@@ -98,7 +98,10 @@
     transition: background-color 0.3s ease;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1180px) {
+    .homeDiv .portrait{
+        width: 23%;
+       }
     .homeDiv::before {
         left: 15%;
     }
@@ -129,6 +132,9 @@
 }
 
 @media (max-width: 768px) {
+   .homeDiv .portrait{
+     width: 50%;
+    }
     #artDiv {
         height: fit-content;
     }
