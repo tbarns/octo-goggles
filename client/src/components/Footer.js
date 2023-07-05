@@ -4,16 +4,16 @@ import './Footer.css'
 
 
 
-const Footer  = ({ setCurrentPage }) => {
+const Footer = ({ setCurrentPage }) => {
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
   return (
-    <div id= 'footerDiv'>
- <button className='navBtn' onClick={() => handlePageChange('contact')}>Contact</button>
-
-<button className='navBtn' onClick={() => handlePageChange('home')}>Home</button>
-
+    <div id='footerDiv'>
+<p>Made with 🎨 by me  </p>
+      {/* <button className='navBtn  glow-on-hover' onClick={() => handlePageChange('contact')}>Contact</button>
+      <button className='navBtn  glow-on-hover' onClick={() => handlePageChange('home')}>Home</button>
+      <button className='navBtn  glow-on-hover' onClick={() => handlePageChange('projects')}>Projects</button> */}
     </div>
   )
 }

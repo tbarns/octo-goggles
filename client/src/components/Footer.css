@@ -1,6 +1,12 @@
 #footerDiv{
 width: 100%;
 height: 3rem;
-background-color:var(--prussian-blue);
-color: var(--white);
+background-color:var(--white);
+color: var(--davys-gray);
+}
+
+p{
+    user-select: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6rem;
 }
