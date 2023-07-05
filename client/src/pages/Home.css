@@ -232,7 +232,7 @@
         }
     }
 
-    @media (max-width: 3000px) {
+    @media (max-width: 300px) {
 
         #devTextTitle {
             top: 22%;
