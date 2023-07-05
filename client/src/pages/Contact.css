@@ -2,6 +2,13 @@
     display: block;
     height: 50%;
 }
-.EmailButton{
-    background-color: black;
+
+#emailContactDiv{
+    background-color: var(--rose-quartz);
+    width: 14rem;
+    height: 14rem;
+    border-radius: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
