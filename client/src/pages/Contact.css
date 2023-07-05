@@ -1,35 +1,135 @@
-#contactDiv{
+#contactDiv {
     display: block;
-    height: 50%;
-}
-a{
-    text-decoration: none; /* Removes the underline */
-  color: inherit; 
+    height: 70vh;
+ 
+
+
+
 }
 
-#emailContactDiv{
-    margin-top: 1rem;
-    margin-left: 4rem;
+a {
+    text-decoration: none;
+    /* Removes the underline */
+    color: inherit;
+}
+
+#emailContactDiv {
+
     background-color: var(--rose-quartz);
     color: var(--davys-gray);
-    width: 14rem;
-    height: 14rem;
+    width: calc(100vw/7);
+    height: calc(100vw/7);
     border-radius: 100%;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: calc(100vw/31);
+    position: relative;
+    top: 14%;
+    left: 53%;
 }
-#resumeContactDiv{
-    margin-top: -1rem;
-    margin-left: 14rem;
+
+#resumeContactDiv {
+
+
+    background-color: var(--davys-gray);
+    color: var(--white);
+    width: calc(100vw/5);
+    height: calc(100vw/5);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(100vw/23);
+    position: relative;
+    left: 33%;
+    top: -23%;
+}
+
+#otherContactDiv {
+
     background-color: var(--prussian-blue);
     color: var(--white);
-    width: 9rem;
-    height: 9rem;
+    width: calc(100vw/7);
+    height: calc(100vw/7);
     border-radius: 100%;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: calc(100vw/31);
+    position: relative;
+    bottom: 29%;
+   left: 45%;
+}
+
+
+.glow-on-hover-contact {
+    width: fit-content;
+    height: 45%;
+    border: none;
+    outline: none;
+    color: var(--davys-gray);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    animation: glowing 10s linear infinite;
+    /* Updated animation duration */
+    transition: color 0.3s ease-in-out;
+}
+
+.glow-on-hover-contact:before {
+    content: '';
+    background: linear-gradient(45deg, var(--prussian-blue), var(--rose-quartz), var(--prussian-blue), var(--rose-quartz), var(--prussian-blue), var(--rose-quartz));
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 100%;
+}
+
+.glow-on-hover-contact:active {
+    color: #000;
+}
+
+.glow-on-hover-contact:active:after {
+    background: transparent;
+}
+
+.glow-on-hover-contact:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover-contact:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    left: 0;
+    top: 0;
+    border-radius: 100%;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
 }
