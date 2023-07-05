@@ -12,7 +12,7 @@
 
     &::before {
         content: "Artist";
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Indie Flower', cursive, bold;
         font-size: calc(1vw + 2.5rem);
         position: absolute;
         top: 44%;
@@ -25,11 +25,11 @@
 
     &::after {
         content: "Developer";
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-size: calc(1vw + 2.5rem);
         position: absolute;
         top: 44%;
-        right: 22%;
+        right: 19%;
         color: var(--prussian-blue);
         -webkit-text-stroke: 1px var(--white);
         text-stroke: 1px var(--white);
@@ -142,14 +142,14 @@
     }
 
     #devTextTitle {
-        top: 2%;
-
+        top: 6%;
+        left: 67%;
         font-size: 20px;
     }
 
     #artistTextTitle {
         left: 0%;
-        top: 0%;
+        top: 6%;
         font-size: 20px;
     }
 
@@ -157,6 +157,7 @@
         left: 3.5%;
         font-size: calc(1vw + 2rem);
         top: 14%;
+
     }
 
     .homeDiv::after {
@@ -169,17 +170,114 @@
         top: 25%;
         left: 2%;
         height: fit-content;
-        font-size: calc(1.2vw + 0.495rem);
+        font-size: calc(2.3vw + 0.495rem);
     }
 
     #devText {
         height: fit-content;
-        font-size: calc(1.2vw + 0.325rem);
+        font-size: calc(1.7vw + 0.325rem);
         width: 47%;
         right: 1%;
         top: 45%;
-        
+
     }
 
-  
+    @media (max-width: 550px) {
+
+        #devTextTitle {
+            top: 22%;
+            left: 67%;
+            line-break: none;
+            font-size: 17px;
+        }
+
+        #artistTextTitle {
+            left: 0%;
+            top: 26%;
+            font-size: 20px;
+        }
+
+        .homeDiv::before {
+            left: 9.5%;
+            font-size: calc(1vw + 2rem);
+            top: 36%;
+            -webkit-text-stroke: .5px var(--white);
+            text-stroke: .5px var(--white);
+        }
+
+        .homeDiv::after {
+            right: 2%;
+            font-size: calc(2vw + 1.5rem);
+            top: 37%;
+            -webkit-text-stroke: .5px var(--white);
+            text-stroke: .5px var(--white);
+        
+        }
+
+        #artistText {
+            top: 43%;
+            width: 40%;
+            left: 6%;
+            height: fit-content;
+            font-size: calc(1.4vw + 0.495rem);
+        }
+
+        #devText {
+
+            font-size: calc(1.08vw + 0.325rem);
+            width: 42%;
+            right: 3%;
+            top: 45%;
+
+        }
+    }
+
+    @media (max-width: 3000px) {
+
+        #devTextTitle {
+            top: 22%;
+            left: 67%;
+            line-break: none;
+            font-size: 17px;
+        }
+
+        #artistTextTitle {
+            left: -4%;
+            top: 26%;
+            font-size: 16px;
+        }
+
+        .homeDiv::before {
+            left: 9.5%;
+            font-size: calc(1vw + 2rem);
+            top: 36%;
+
+        }
+
+        .homeDiv::after {
+            right: 2%;
+            font-size: calc(2vw + 1.1rem);
+            top: 37%;
+        }
+
+        #artistText {
+            top: 43%;
+            width: 40%;
+            left: 6%;
+            height: fit-content;
+            font-size: calc(1.4vw + 0.495rem);
+        }
+
+        #devText {
+
+            font-size: calc(1.08vw + 0.30rem);
+            width: 42%;
+            right: 3%;
+            top: 42%;
+            
+
+        }
+    }
+
+
 }

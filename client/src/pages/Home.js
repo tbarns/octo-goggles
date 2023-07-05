@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import "./Home.css";
 import portrait from '../portrait.png';
+import 'typeface-indie-flower';
+import 'typeface-raleway';
+
 
 const Home = () => {
     const [cursorX, setCursorX] = useState(0);
@@ -45,13 +48,13 @@ const Home = () => {
     return (
         <div className="homeDiv" onMouseMove={handleMouseMove}>
             <img src={portrait} className="portrait" alt="a portrait of a person with brown hair, glasses and a beard and mustache. the right half of the face is a photograph and the left is a realistic pencil drawing with a pink background." />
-            <p id='artistTextTitle'> Interdisciplinary</p>
-            <div id='artDiv' >  <p id='artistText' >creating fine works of art using traditional media as well as digital. Gallery exhibits in New York City and Seattle. Contributing columnist to the bilingual publication Beefcake Mag based in Brazil.  Clients include Amazon, Microsoft, Nike, Glass Iris Productions, Mighty Tripod, Seattle Institute of Art, and more.</p>
+            <p id='artistTextTitle'  style={{ fontFamily: 'Indie Flower, cursive' }}> Interdisciplinary</p>
+            <div id='artDiv' >  <p id='artistText'  style={{ fontFamily: 'Indie Flower, cursive' }}>creating fine works of art using traditional media as well as digital. Gallery exhibits in New York City and Seattle. Contributing columnist to the bilingual publication Beefcake Mag based in Brazil.  Clients include Amazon, Microsoft, Nike, Glass Iris Productions, Mighty Tripod, Seattle Institute of Art, and more.</p>
             </div>
 
-            <p id='devTextTitle'> Full Stack</p>  <p id='devText' >with extensive experience integrating third-party REST APIs into MVC projects and OOP projects with Node.js and GraphQL.  Other backend skills include:
+            <p id='devTextTitle'  style={{ fontFamily: 'Raleway, sans-serif' }}> Full Stack</p>  <p id='devText'  style={{ fontFamily: 'Raleway, sans-serif' }}>with extensive experience integrating third-party REST APIs into MVC projects and OOP projects with Node.js and GraphQL.  Other backend skills include:
 
-                <ul>
+                <ul style={{ fontFamily: 'Raleway, sans-serif' }}>
                     <li>Configuring and maintaining servers for MERN stack deployment on Heroku.</li>
                     <li>Creating CLI applications for user input manipulation and SQL database access.</li>
                     <li>Managing SQL databases with Sequelize ORM and NoSQL databases with Mongo and Mongoose.</li>
