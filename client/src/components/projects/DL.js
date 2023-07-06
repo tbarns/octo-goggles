@@ -11,13 +11,23 @@ const DL = () => {
 
       <p className='myPart'>I lead the backend development for this project by building the server and creating the structure for the models and the routing using GraphQL.  In addition, I was responsible for researching and structuring our user authentication using JWT.
       </p>
-      <p className='techUsed'>
-        Notable technologies used: JWT, REACT, GraphQL, MongoDB, Node.js, Express.js, GitHub
-      </p>
+
+      <div className='techUsed'>
+        Notable technologies used:
+        <ul>
+          <li>JWT</li>
+          <li>REACT</li>
+          <li>GraphQL</li>
+          <li>MongoDB</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>GitHub</li>
+        </ul>
+      </div>
       <div>
-      <a href="https://didactic-lift.herokuapp.com/" className="ExternalLink">
-        <p className="ExternalLinkP"  >Visit Website</p>
-      </a>
+        <a href="https://didactic-lift.herokuapp.com/" className="ExternalLink">
+          <p className="ExternalLinkP"  >Visit Website</p>
+        </a>
       </div>
 
     </div>

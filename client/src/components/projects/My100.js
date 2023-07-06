@@ -12,9 +12,20 @@ const My100 = () => {
       </p>
 
 
-      <p className='techUsed'>
-        Notable technologies used: JWT, REACT, GraphQL, MongoDB, Node.js, Express.js, GitHub
-      </p>
+      
+  <div className='techUsed'>
+    Notable technologies used:
+    <ul>
+      <li>JWT</li> 
+      <li>REACT</li>
+      <li>GraphQL</li> 
+      <li>MongoDB</li>
+      <li>Node.js</li>
+      <li>Express.js</li>
+      <li>GitHub</li>
+    </ul>
+  </div>
+
       <div>
       <a href="https://tbarns.github.io/blank-site/" className="ExternalLink">
         <p className="ExternalLinkP"  >Visit Website</p>

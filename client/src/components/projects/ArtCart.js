@@ -11,9 +11,18 @@ const ArtCart = () => {
 
       <p className='myPart'>I lead the backend development for this project by building the server and creating the structure for the models and the routing using RESTFUL API endpoints.  I also ensured the project maintained a MVC file structure.
       </p>
-      <p className='techUsed'>
-        Notable technologies used: Handlebars, REST APIs, MongoDB, Node.js, Express.js, GitHub
-      </p>
+      <div className='techUsed'>
+        Notable technologies used:
+        <ul>
+          <li>Handlebars</li>
+          <li>REST APIs</li>
+          <li>MongoDB</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>GitHub</li>
+        </ul>
+      </div>
+
       <div>
         <a href="https://art-cart-gui-guys-production.herokuapp.com/login" className="ExternalLink">
           <p className="ExternalLinkP"  >Visit Website</p>

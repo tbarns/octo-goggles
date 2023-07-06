@@ -11,13 +11,19 @@ const Weather = () => {
 
       <p className='myPart' >This was my first attempt at accessing and utilizing a third party API.
       </p>
-      <p className='techUsed' >
-        Notable technologies used: JavaScript, OpenWeather API, GitHub
-      </p>
+      <div className='techUsed'>
+        Notable technologies used:
+        <ul>
+          <li>JavaScript</li>
+          <li>OpenWeather API</li>
+          <li>GitHub</li>
+        </ul>
+      </div>
+
       <div>
-      <a href="https://tbarns.github.io/weather-or-not/" className="ExternalLink">
-        <p className="ExternalLinkP"  >Visit Website</p>
-      </a>
+        <a href="https://tbarns.github.io/weather-or-not/" className="ExternalLink">
+          <p className="ExternalLinkP"  >Visit Website</p>
+        </a>
       </div>
 
     </div>
