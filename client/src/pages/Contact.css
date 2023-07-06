@@ -1,10 +1,6 @@
 #contactDiv {
     display: block;
-    height: 70vh;
- 
-
-
-
+    height: 80vh;
 }
 
 a {
@@ -46,7 +42,7 @@ a {
     top: -23%;
 }
 
-#otherContactDiv {
+#githubContactDiv {
 
     background-color: var(--prussian-blue);
     color: var(--white);
@@ -151,7 +147,7 @@ a {
       height: 380px;
     }
   
-    #otherContactDiv {
+    #githubContactDiv {
         font-size: 20px;
       bottom: 30%;
       left: 30%;
@@ -186,7 +182,7 @@ a {
       height: 180px;
     }
   
-    #otherContactDiv {
+    #githubContactDiv {
         font-size: 20px;
       bottom: 10%;
       left: 10%;

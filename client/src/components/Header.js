@@ -12,7 +12,7 @@ const Header = ({ setCurrentPage }) => {
     <div id='headerDiv'>
 
       <button className='navBtn  glow-on-hover' onClick={() => handlePageChange('contact')}>Contact</button>
-      <button className='navBtn  glow-on-hover' onClick={() => handlePageChange('home')}>Home</button>
+      <button className='navBtn  glow-on-hover' onClick={() => handlePageChange('home')}>About</button>
       <button className='navBtn  glow-on-hover' onClick={() => handlePageChange('projects')}>Projects</button>
     </div>
   )

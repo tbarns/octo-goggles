@@ -20,9 +20,18 @@ const Contact = () => {
                 </a>
             </div>
 
-            <div className='glow-on-hover-contact' id='otherContactDiv'>
-                other
+            <div className='glow-on-hover-contact' id='githubContactDiv'>
+            <a href="
+            https://github.com/tbarns">
+                github
+                </a>
             </div>
+            {/* <div className='glow-on-hover-contact' id='githubContactDiv'>
+            <a href="
+            https://github.com/tbarns">
+                github
+                </a>
+            </div> */}
 
         </div>
 
