@@ -13,7 +13,9 @@ const DL = () => {
       </p>
 
       <div className='techUsed'>
-        Notable technologies used:
+        <p className='techTitle'>
+          Notable technologies used:
+        </p>
         <ul>
           <li>JWT</li>
           <li>REACT</li>

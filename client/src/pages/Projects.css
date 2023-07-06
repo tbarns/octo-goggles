@@ -4,7 +4,8 @@
     justify-content: center; /* Center-align the cards horizontally */
     gap: 1rem; /* Add a small gap between cards */
     background-color: var(--davys-gray);
-
+    user-select: none;
+    font-family: 'Raleway, sans-serif'
   }
   
   .projectDiv {

@@ -12,7 +12,9 @@ const Weather = () => {
       <p className='myPart' >This was my first attempt at accessing and utilizing a third party API.
       </p>
       <div className='techUsed'>
-        Notable technologies used:
+        <p className='techTitle'>
+          Notable technologies used:
+        </p>
         <ul>
           <li>JavaScript</li>
           <li>OpenWeather API</li>

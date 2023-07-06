@@ -12,7 +12,9 @@ const ArtCart = () => {
       <p className='myPart'>I lead the backend development for this project by building the server and creating the structure for the models and the routing using RESTFUL API endpoints.  I also ensured the project maintained a MVC file structure.
       </p>
       <div className='techUsed'>
-        Notable technologies used:
+        <p className='techTitle'>
+          Notable technologies used:
+        </p>
         <ul>
           <li>Handlebars</li>
           <li>REST APIs</li>

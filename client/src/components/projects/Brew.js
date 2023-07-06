@@ -9,11 +9,13 @@ const Brew = () => {
       </p>
 
       <div className='techUsed'>
-        Notable technologies used:
+        <p className='techTitle'>
+          Notable technologies used:
+        </p>
         <ul>
-          <li>JavaScript</li> 
+          <li>JavaScript</li>
           <li>Google Maps API</li>
-          <li> Open Brewery API</li> 
+          <li> Open Brewery API</li>
           <li>GitHub</li>
         </ul>
       </div>
