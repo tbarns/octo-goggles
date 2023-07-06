@@ -52,7 +52,7 @@ const Home = () => {
             <div id='artDiv' >  <p id='artistText'  style={{ fontFamily: 'Indie Flower, cursive' }}>creating fine works of art using traditional media as well as digital. Gallery exhibits in New York City and Seattle. Contributing columnist to the bilingual publication Beefcake Mag based in Brazil.  Clients include Amazon, Microsoft, Nike, Glass Iris Productions, Mighty Tripod, Seattle Institute of Art, and more.</p>
             </div>
 
-            <p id='devTextTitle'  style={{ fontFamily: 'Raleway, sans-serif' }}> Full Stack</p>  <p id='devText'  style={{ fontFamily: 'Raleway, sans-serif' }}>with extensive experience integrating third-party REST APIs into MVC projects and OOP projects with Node.js and GraphQL.  Other backend skills include:
+            <p id='devTextTitle'  style={{ fontFamily: 'Raleway, sans-serif' }}> Full Stack</p>  <p id='devText'  style={{ fontFamily: 'Raleway, sans-serif' }}>with extensive experience integrating third-party REST APIs into MVC and OOP projects with Node.js and GraphQL.  Other backend skills include:
 
                 <ul style={{ fontFamily: 'Raleway, sans-serif' }}>
                     <li>Configuring and maintaining servers for MERN stack deployment on Heroku.</li>

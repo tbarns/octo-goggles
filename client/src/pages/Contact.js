@@ -26,12 +26,12 @@ const Contact = () => {
                 github
                 </a>
             </div>
-            {/* <div className='glow-on-hover-contact' id='githubContactDiv'>
+            <div className='glow-on-hover-contact' id='linkedinContactDiv'>
             <a href="
-            https://github.com/tbarns">
-                github
+            https://www.linkedin.com/in/tbarns">
+                linkedin
                 </a>
-            </div> */}
+            </div>
 
         </div>
 
