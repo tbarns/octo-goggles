@@ -27,7 +27,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 64px;  /* The height is computed by adding the font-size (2rem which is 32px) and padding (10px on each side) */
+    height: 64px; 
+    width: 64px;
     transition: transform 0.3s ease;
 }
 
@@ -42,6 +43,8 @@
     background-color: var(--white);
     box-shadow: 6px 6px 12px var(--prussian-blue);
     transition: box-shadow 1.2s ease;
+    height: auto;
+    width: 100%;
 }
 
 .icon-wrapper:hover i {

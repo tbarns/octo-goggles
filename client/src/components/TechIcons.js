@@ -33,6 +33,13 @@ const TechIcons = () => {
                     </div>
                     <div className="tech-item">
                         <div className="icon-wrapper">
+                            <i className="fab fa-github"></i>
+                        </div>
+                        <span>GitHub</span>
+                    </div>
+
+                    <div className="tech-item">
+                        <div className="icon-wrapper">
                             <i className="fab fa-css3-alt"></i>
                         </div>
                         <span>CSS3</span>
@@ -55,6 +62,30 @@ const TechIcons = () => {
                         </div>
                         <span>Node.js</span>
                     </div>
+
+                    <div className="tech-item">
+                        <div className="icon-wrapper">
+                            <i className="fab fa-npm"></i>
+                        </div>
+                        <span>NPM</span>
+                    </div>
+
+
+                    <div className="tech-item">
+                        <div className="icon-wrapper">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <span>Ai</span>
+                    </div>
+
+                    <div className="tech-item">
+                        <div className="icon-wrapper">
+                            <i className="fab fa-mailchimp"></i>
+
+                        </div>
+                        <span>mailchimp</span>
+                    </div>
+
                 </div>
             </div>
         </div>

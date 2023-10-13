@@ -49,10 +49,10 @@ const Home = () => {
         <div className="homeDiv" onMouseMove={handleMouseMove}>
             <img src={portrait} className="portrait" alt="a portrait of a person with brown hair, glasses and a beard and mustache. the right half of the face is a photograph and the left is a realistic pencil drawing with a pink background." />
             <p id='artistTextTitle'  style={{ fontFamily: 'Indie Flower, cursive' }}> Interdisciplinary</p>
-            <div id='artDiv' >  <p id='artistText'  style={{ fontFamily: 'Indie Flower, cursive' }}>creating fine works of art using traditional media as well as digital. Gallery exhibits in New York City and Seattle. Contributing columnist to the bilingual publication Beefcake Mag based in Brazil.  Clients include Amazon, Microsoft, Nike, Glass Iris Productions, Mighty Tripod, Seattle Institute of Art, and more.</p>
+            <div id='artDiv' >  <p id='artistText'  style={{ fontFamily: 'Indie Flower, cursive' }}> Crafting fine art through traditional and digital mediums. Exhibited in galleries across New York City and Seattle, and a contributing columnist for the bilingual Beefcake Mag, based in Brazil. Clients include Amazon, Microsoft, Nike, Glass Iris Productions, Mighty Tripod, Seattle Institute of Art, and more.</p>
             </div>
 
-            <p id='devTextTitle'  style={{ fontFamily: 'Raleway, sans-serif' }}> Full Stack</p>  <p id='devText'  style={{ fontFamily: 'Raleway, sans-serif' }}>with extensive experience integrating third-party REST APIs into MVC and OOP projects with Node.js and GraphQL.  Other backend skills include:
+            <p id='devTextTitle'  style={{ fontFamily: 'Raleway, sans-serif' }}> Full Stack</p>  <p id='devText'  style={{ fontFamily: 'Raleway, sans-serif' }}>possessing a deep expertise in integrating third-party REST APIs into MVC and OOP architectures using cutting-edge technologies like Node.js and GraphQL. Backend capabilities extend to:
 
                 <ul style={{ fontFamily: 'Raleway, sans-serif' }}>
                     <li>Configuring and maintaining servers for MERN stack deployment on Heroku.</li>
