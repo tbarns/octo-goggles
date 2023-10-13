@@ -42,20 +42,22 @@
 
 }
 
+
 .projectDiv:hover h1 {
   display: none;
 }
 
 .ExternalLinkP{
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
+
 }
 
 .ExternalLink {
 justify-content: center;
   background-color: var(--rose-quartz);
-  width: 170px;
+  
   height: 50px;
   border-radius: 5px;
   margin: .75rem;
@@ -110,7 +112,7 @@ justify-content: center;
 #projectsContainer .projectDiv {
   position: relative;
   flex: 0 0 calc(37% - 1rem);
-  transition: flex 0.5s ease, opacity 0.5s ease 1s; /* Delay the opacity transition */
+  transition: flex 1.3s ease-in-out, opacity .3s ease-in-out;
   z-index: 1;
 }
 

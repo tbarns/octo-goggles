@@ -1,24 +1,26 @@
-import './Projects.css'
-import DLLogo from '../../DLLogo.png'
+import './Projects.css';
+import DLLogo from '../../DLLogo.png';
 
 const DL = () => {
   return (
-    <div className='projectDiv' >
-      <img src={DLLogo} className="Logo" alt="Logo of a person doing a yoga pose" />
+    <div className='projectDiv'>
+      <img src={DLLogo} className="Logo" alt="Logo of a person executing a yoga pose" />
       <h1> Didactic Lift </h1>
-      <p className='AppDesc'>Didactic Lift is an app for anyone interested in fitness.  If you have wanted to try a new workout or begin a fitness journey DL can help you teach yourself exercises that target the muscle groups you want.  Simply log in or create an account and begin your search for workouts right away.
+      <p className='AppDesc'>
+        Didactic Lift seamlessly bridges the gap between fitness aspirations and actionable results. It's meticulously crafted for those keen on embracing a transformative fitness journey. Whether you're a seasoned fitness enthusiast or embarking on your initial venture, DL offers a curated selection of workouts tailored for specific muscle groups. Experience a user-centric interface by creating an account and diving into a wealth of exercises.
       </p>
 
-      <p className='myPart'>I lead the backend development for this project by building the server and creating the structure for the models and the routing using GraphQL.  In addition, I was responsible for researching and structuring our user authentication using JWT.
+      <p className='myPart'>
+        My proficiency was pivotal in orchestrating the backend dynamics of this platform. As the lead backend developer, I meticulously engineered the server and framed the database models, enhancing data interactivity using GraphQL. My role further encompassed spearheading the integration of JWT for user authentication, fortifying the platform's security and user experience.
       </p>
-
+      
       <div className='techUsed'>
         <p className='techTitle'>
-          Notable technologies used:
+          Key Technologies Deployed:
         </p>
         <ul>
-          <li>JWT</li>
-          <li>REACT</li>
+          <li>JWT for Authentication</li>
+          <li>React</li>
           <li>GraphQL</li>
           <li>MongoDB</li>
           <li>Node.js</li>
@@ -26,14 +28,14 @@ const DL = () => {
           <li>GitHub</li>
         </ul>
       </div>
+
       <div>
         <a href="https://didactic-lift.herokuapp.com/" className="ExternalLink">
-          <p className="ExternalLinkP"  >Visit Website</p>
+          <p className="ExternalLinkP">Explore the Platform</p>
         </a>
       </div>
-
     </div>
   )
 }
 
-export default DL
+export default DL;

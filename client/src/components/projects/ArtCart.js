@@ -1,23 +1,26 @@
-import './Projects.css'
-import cart from '../../cart.png'
+import './Projects.css';
+import cart from '../../cart.png';
+
 const ArtCart = () => {
   return (
-    <div className='projectDiv'  >
+    <div className='projectDiv'>
       <img src={cart} className="Logo" alt="Logo shopping cart" />
       <h1> Art (C)art </h1>
       <p className='AppDesc'>
-        Art (C)art is a digital gallery that allows artists both well known and establishing to present their work at no cost.  This space enables artists to connect with collectors in a way that doesn't add the burden of applying to exhibits or lugging work to a location, potentially damaging the pieces.
+        Art (C)art revolutionizes the traditional art exhibit by offering a dynamic digital gallery space. Designed with emerging and renowned artists in mind, it eliminates the hassles of physical exhibitions. This platform not only safeguards precious artworks from potential transit damage but also facilitates seamless interactions between artists and collectors.
       </p>
 
-      <p className='myPart'>I lead the backend development for this project by building the server and creating the structure for the models and the routing using RESTFUL API endpoints.  I also ensured the project maintained a MVC file structure.
+      <p className='myPart'>
+        My pivotal role as the lead backend developer was instrumental in shaping the infrastructure of this platform. My expertise was primarily focused on server construction, designing the database schema, and orchestrating data flow through RESTful API endpoints. I employed best practices to adhere to the MVC architectural pattern, ensuring a clean, modular, and scalable codebase.
       </p>
+      
       <div className='techUsed'>
         <p className='techTitle'>
-          Notable technologies used:
+          Key Technologies Deployed:
         </p>
         <ul>
           <li>Handlebars</li>
-          <li>REST APIs</li>
+          <li>RESTful APIs</li>
           <li>MongoDB</li>
           <li>Node.js</li>
           <li>Express.js</li>
@@ -27,11 +30,11 @@ const ArtCart = () => {
 
       <div>
         <a href="https://art-cart-gui-guys-production.herokuapp.com/login" className="ExternalLink">
-          <p className="ExternalLinkP"  >Visit Website</p>
+          <p className="ExternalLinkP">Explore the Platform</p>
         </a>
       </div>
     </div>
   )
 }
 
-export default ArtCart
+export default ArtCart;
