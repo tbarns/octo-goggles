@@ -6,6 +6,8 @@ import Weather from "../components/projects/Weather"
 import DL from "../components/projects/DL"
 import DrawingTime
  from "../components/projects/DrawingTime"
+import TechIcons from "../components/TechIcons"
+
 const Projects = () => {
   return (
     <div id = 'projectsContainer'>
@@ -16,7 +18,7 @@ const Projects = () => {
 <Brew/>
 {/* <My100/> */}
 {/* <DrawingTime/> */}
-
+<TechIcons/>
 
     </div>
   )
