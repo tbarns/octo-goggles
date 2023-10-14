@@ -5,25 +5,26 @@ const Brew = () => {
   return (
     <div className='projectDiv'>
       <img src={icon} className="Logo" alt="Icon of a beer mug" />
-      <h1> Brewery Locator </h1>
+      <h1> Brewery Explorer 🍻 </h1>
       <p className='AppDesc'>
-        The Brewery Locator seamlessly merges the prowess of the Google Maps API with the expansive dataset of the Open Brewery API, offering aficionados a sophisticated platform to discover breweries worldwide. A refined search by city unveils detailed insights into each brewery's distinct identity and offerings.
+        Ready for a beery adventure? Dive into the Brewery Explorer! It's not just another app – it's your passport to discovering hidden beer gems worldwide. 🌍 Travel city by city, uncovering the stories behind each brew house. Cheers to exploring!
       </p>
       
       <div className='techUsed'>
         <p className='techTitle'>
-          Technologies Deployed:
+          Brewed With:
         </p>
         <ul>
           <li>JavaScript</li>
           <li>Google Maps API</li>
           <li>Open Brewery API</li>
           <li>GitHub</li>
+          <li>Heroku</li>
         </ul>
       </div>
       <div>
-        <a href="https://tbarns.github.io/Brewery-Locator/" className="ExternalLink">
-          <p className="ExternalLinkP">Explore the Locator</p>
+        <a href="https://brewme-0348777a47b8.herokuapp.com/" target="_blank" rel="noopener noreferrer"  className="ExternalLink">
+          <p className="ExternalLinkP">Start Your Beery Voyage! 🚀</p>
         </a>
       </div>
     </div>
