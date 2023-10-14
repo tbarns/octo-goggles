@@ -5,9 +5,9 @@ const Brew = () => {
   return (
     <div className='projectDiv'>
       <img src={icon} className="Logo" alt="Icon of a beer mug" />
-      <h1> Brewery Explorer 🍻 </h1>
+      <h1> Brewery Locator 🍻 </h1>
       <p className='AppDesc'>
-        Ready for a beery adventure? Dive into the Brewery Explorer! It's not just another app – it's your passport to discovering hidden beer gems worldwide. 🌍 Travel city by city, uncovering the stories behind each brew house. Cheers to exploring!
+        Ready for a beery adventure? Dive into the Brewery Locator App! It's not just another app – it's your passport to discovering hidden beer gems worldwide. 🌍 Travel city by city, uncovering the stories behind each brew house. Cheers to exploring!
       </p>
       
       <div className='techUsed'>
