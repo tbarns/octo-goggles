@@ -5,28 +5,32 @@ const Weather = () => {
   return (
     <div className='projectDiv'>
       <img src={weatherLogo} className="Logo" alt="Icon depicting a cloud with the sun" />
-      <h1> Weather or Not </h1>
+      <h1> Weather App 2.0: A Reinvention </h1>
       <p className='AppDesc'>
-        Weather or Not refines meteorological insights into an intuitive interface, offering a comprehensive 5-day forecast. Beyond mere temperatures, users gain access to nuanced metrics such as wind speed, humidity, and evocative icons representing current or forthcoming weather conditions.
+        From humble beginnings as a vanilla JavaScript application, "Weather or Not" has evolved into a sophisticated Python-powered marvel. The revamped version provides an immersive 5-day forecast experience, boasting features beyond just temperatures, such as wind speed, humidity, and illustrative icons for real-time weather depiction.
       </p>
 
       <p className='myPart'>
-        This venture represented my initial foray into the intricate realm of third-party API integrations, encapsulating a phase of exponential learning and growth.
+        This reincarnation represents not just my technical progression but symbolizes my continuous drive for self-improvement. Transitioning to Python with Flask, I have achieved enhanced security, managing search histories, and seamless API interactions, all while leaving JavaScript behind.
       </p>
+
       <div className='techUsed'>
         <p className='techTitle'>
-          Technologies Deployed:
+          Upgraded Tech Stack:
         </p>
         <ul>
-          <li>JavaScript</li>
-          <li>OpenWeather API</li>
+          <li>Python & Flask</li>
+          <li>Jinja2 Templating</li>
+          <li>dotenv for Environment Security</li>
+          <li>requests Module for API Calls</li>
+          <li>Flask-CORS</li>
           <li>GitHub</li>
         </ul>
       </div>
 
       <div>
-        <a href="https://tbarns.github.io/weather-or-not/" className="ExternalLink">
-          <p className="ExternalLinkP">Dive into the Forecast</p>
+        <a href="https://weathersnake-04a7b3575b38.herokuapp.com/" className="ExternalLink">
+          <p className="ExternalLinkP">Experience the Meteorological Marvel!</p>
         </a>
       </div>
     </div>

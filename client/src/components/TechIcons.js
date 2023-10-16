@@ -27,6 +27,47 @@ const TechIcons = () => {
                     </div>
                     <div className="tech-item">
                         <div className="icon-wrapper">
+                            <i className="fab fa-python"></i>
+                        </div>
+                        <span>Python</span>
+                    </div>
+
+                    <div className="tech-item">
+                        <div className="icon-wrapper">
+                            <i className="fas fa-flask"></i>  {/* Note: Font Awesome doesn't have Flask. If you have custom icon, replace it here */}
+                        </div>
+                        <span>Flask</span>
+                    </div>
+
+                    <div className="tech-item">
+                        <div className="icon-wrapper">
+                            <i className="fas fa-file-code"></i>
+                        </div>
+                        <span>Jinja2</span>
+                    </div>
+
+                    <div className="tech-item">
+                        <div className="icon-wrapper">
+                            <i className="fas fa-shield-alt"></i>
+                        </div>
+                        <span>dotenv</span>
+                    </div>
+
+                    <div className="tech-item">
+                        <div className="icon-wrapper">
+                            <i className="fas fa-cloud-upload-alt"></i>
+                        </div>
+                        <span>requests</span>
+                    </div>
+
+                    <div className="tech-item">
+                        <div className="icon-wrapper">
+                            <i className="fas fa-globe"></i>
+                        </div>
+                        <span>Flask-CORS</span>
+                    </div>
+                    <div className="tech-item">
+                        <div className="icon-wrapper">
                             <i className="fab fa-html5"></i>
                         </div>
                         <span>HTML5</span>
